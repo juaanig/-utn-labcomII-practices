@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th {
+        background: rgb(255, 255, 255);
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        margin: 20px auto;
+        }
+        table,hr{
+        width: 70%;
+        }
+        h2{
+            text-align: center;
+        }
+        div{
+            background-color: rgb(245, 239, 233);
+            width: 650px;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body> 
+    <div>
+        <!--=============TABLA SIMPLE=============-->
+        <h2>Tabla simple</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>encabezado 1</th>
+                    <th>encabezado 2</th>
+                    <th>encabezado 3</th>
+                    <th>encabezado 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>col 1 fila 2</td>
+                    <td>col 2 fila 2</td>
+                    <td>col 3 fila 2</td>
+                    <td>col 4 fila 2</td>
+                </tr>
+                <tr>
+                    <td>col 1 fila 3</td>
+                    <td>col 2 fila 3</td>
+                    <td>col 3 fila 3</td>
+                    <td>col 4 fila 3</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <!--=============TABLA COMPLEJA=============-->
+        <h2>Tabla compleja</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>encabezado 1</th>
+                    <th>encabezado 2</th>
+                    <th>encabezado 3</th>
+                    <th>encabezado 4</th>
+                    <th>encabezado 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">col 1 fila 2</td>
+                    <td><a href="https://www.youtube.com/index" target="_blank">youtube</a></td>
+                    <td>col 4 fila 2</td>
+                    <td>col 5 fila 2</td>
+                </tr>
+                <tr>
+                    <td>col 1 fila 3</td>
+                    <td colspan="2">col 2 fila 3</td>
+                    <td rowspan="2" colspan="2">col 4 fila 3</td>
+                </tr>
+                <tr >
+                    <td>col 1 fila 4</td>
+                    <td>col 2 fila 4</td>
+                    <td>col 3 fila 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
