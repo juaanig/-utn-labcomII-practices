@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #aaaaaa;
+}
+div.container {
+overflow: auto;
+}
+h1{
+    margin: 0;
+    text-align: start;
+    font-size: 42px;
+    font-style: italic;
+    font-family: 'Grape Nuts', cursive;
+    text-shadow: 5px 5px 10px #ffffff;
+    color: rgb(255, 255, 255);
+}
+header{
+    background: rgb(0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.642);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+nav {
+float: left;
+width: 20%;
+text-align: center;
+}
+nav ul {
+padding-left: 0px;
+}
+nav li {
+list-style: none;
+}
+nav li a {
+background-color: #e5e5e5;
+padding: 8px;
+margin-top: 7px;
+display: block;
+width: 100%;
+color: black;
+font-weight: 700;
+}
+main {
+float: left;
+width: 60%;
+padding: 0 20px 20px;
+}
+.right {
+background-color: #e5e5e5;
+float: left;
+width: 20%;
+padding: 15px;
+margin-top: 7px;
+text-align: center;
+}
+.multimedia{
+    margin-top: 100px;
+}
+
+.bebidas{
+    margin-top: 100px;
+}
+.desc{
+    display: flex;
+    text-align: center;            
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.334);
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+}
+.desc>p{
+    width: 70%;
+}
+.tragos>h3{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+background-color: #2e2e2e;
+text-align: center;
+padding: 10px;
+margin-top: 100px;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-around
+}
+.cf{
+    text-align: center;
+
+}
+.cf-2{
+    width: 300px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 620px) {
+    nav,
+    main,
+    .right {
+    width: 100%;
+    }
+}
