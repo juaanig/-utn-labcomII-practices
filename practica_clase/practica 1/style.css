@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(231, 230, 230);
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 50px;
+}
+table{
+    width: 90%;
+    margin: 10px 5%;
+    box-shadow: 0px 2px 5px #666;
+    border-collapse: collapse; 
+    border-radius: 15px;
+}
+thead:first-child th:first-child { border-top-left-radius: 15px; }
+thead:first-child th:last-child { border-top-right-radius: 15px; }
+tr:last-child td:first-child { border-bottom-left-radius: 15px; }
+tr:last-child td:last-child { border-bottom-right-radius: 15px; }
+th{
+    color: #666;
+    background-color: rgb(248, 248, 248);
+    text-align: start;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-size: 14px;
+    font-weight: 600;
+}
+td{
+    background-color: white;
+}
+tr{
+    border-bottom: 1px solid #666;
+}
+tr td:first-child{
+    display: flex;
+    padding:10px 10px;
+}
+
+tr td:first-child>div>p{
+    margin:5px 10px;
+}
+.nya{
+    font-weight: bolder;
+}
+.titulo > p:first-child{
+    font-weight: 700;
+}
+
+.status,.role{
+    padding-left: 10px;
+}
+
+.status >p{
+    width: 65px;
+    padding:3px 12px;
+    color: rgb(0, 110, 46);
+    background-color: rgb(0, 255, 106);
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}

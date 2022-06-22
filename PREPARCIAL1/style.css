@@ -56,11 +56,11 @@ ul li:hover{
 /*======================= MAIN ======================*/
 .main-image{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    min-height: 250px;
 }
 .img-background{
     display: flex;
-    height: 200px;
     background-image: url(sala.jpg);
     background-position: center;
     background-size: cover;
@@ -71,9 +71,11 @@ h1{
     margin: 0 15px;
 }
 .img-content{
+    display: flex;
     width: 50%;
-    text-align: top;
-    margin-top: 50px;
-    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 0 80px;
 }
 

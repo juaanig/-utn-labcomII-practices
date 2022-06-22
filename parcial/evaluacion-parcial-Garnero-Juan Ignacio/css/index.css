@@ -1,0 +1,133 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap’);
+*{
+  box-sizing: border-box;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+/* ================= MENU: NAVBAR/HEADER ================= */
+
+nav {
+  background-color: #222222;
+  height: 55px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav ul li {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+nav ul li a {
+  padding: 10px;
+  color: #eeeeee;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+nav ul li a:hover {
+  background-color:rgba(213, 151, 65, 0.3);
+}
+/* ================= SECTION MAIN IMAGE ================= */
+
+#section-main-image {
+  display: flex;
+  height: 90vh;
+  background-image: url(https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80);
+  background-position: inherit;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#section-main-image h1 {
+  font-size: 85px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+
+}
+#section-main-image h2 {
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/* ================= SECTION COFFEE ================= */
+.container {
+  width: 50%;
+  padding: 60px 0px;
+}
+#section-coffee {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+#section-coffee h2 {
+    margin: 40px 0 20px 0;
+}
+.article-section-coffee p{
+  text-align: justify;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  padding: 0 15px;
+}
+
+.product img {
+  width: 100%;
+}
+
+/* ================= FOOTER CONTACT ================= */
+#footer-contact {
+  display: flex;
+  justify-content: center;
+  background-color: #58462c;
+  color: #eeeeee;
+  display: flex;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+.contact-form form {
+  margin-left: 50px;
+  text-align: right;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  color: #58462c;
+  padding: 2px 30px;
+}

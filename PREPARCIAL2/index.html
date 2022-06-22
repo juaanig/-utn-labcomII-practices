@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>calculadora</title>
+</head>
+<body>
+    <h1> PRE-PARCIAL </h1>
+    <div class="container">
+        <section id="section1">
+            <h2>Calcular cambio</h2>
+            <form id="form1" method="get">
+                <label for="pesos">Cantidad de pesos argentinos</label>
+                <input type="text" name="pesos" id="pesos">
+                <select name="selector" id="selector-divisa">
+                    <option value="0" selected disabled>Seleccione una moneda</option>
+                    <option value="usd">Dolares</option>
+                    <option value="eur">Euros</option>
+                </select>
+                <div id="result">
+                </div>
+                <button type="button" id="btn-calc">Calcular</button>
+            </form>
+        </section>
+        <section id="section2">
+            <h2>Agregar nuevas divisas</h2>
+            <form action="" class="form2" id="form2">
+                <label for="n-divisa">Nombre de la moneda</label>
+                <input type="text" name="n-divisa" id="n-divisa">
+                <label for="n-valorDivisa">Valor de la moneda</label>
+                <input type="numbers" name="n-valorDivisa" id="n-valorDivisa">
+                <div id="confirmacion">
+                    
+                </div>
+                <button type="button" id="btn-add">Añadir</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
